@@ -1,3 +1,4 @@
+### General information
 
 #### Tracing the ancestry of modern bread wheats
 https://www.nature.com/articles/s41588-019-0393-z
@@ -15,15 +16,15 @@ https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Annotations/v1.0/iwg
 https://www.ncbi.nlm.nih.gov/bioproject/PRJNA524104/
 
 
-# Software set up
+### Software set up
 
-# download latest SRA-tools version (Ubuntu)
+#### download latest SRA-tools version (Ubuntu)
 ```
 wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.6/sratoolkit.2.9.6-ubuntu64.tar.gz
 tar -xvzf sratoolkit.2.9.6-ubuntu64.tar.gz
 ```
 
-# BWA
+#### BWA
 ```
 git clone https://github.com/lh3/bwa
 cd bwa/
@@ -31,20 +32,20 @@ cd bwa/
 make
 ```
 
-# picard
+#### picard
 ```
 git clone https://github.com/broadinstitute/picard
 cd picard/
 ./gradlew shadowJar
 ```
 
-# samtools bcftools
+#### samtools bcftools
 ```
 wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
 wget https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2
 ```
 
-# beagle
+#### beagle
 ```
 wget https://faculty.washington.edu/browning/beagle/beagle.27Jan18.7e1.jar
 ```
