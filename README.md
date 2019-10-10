@@ -1,10 +1,11 @@
+
 #### Tracing the ancestry of modern bread wheats
 https://www.nature.com/articles/s41588-019-0393-z
 
 #### JBrowse
 https://urgi.versailles.inra.fr/jbrowseiwgsc/gmod_jbrowse/?data=myData%2FIWGSC_RefSeq_v1.0
 
-#### Reference codes
+#### Reference scripts
 https://github.com/dandaman/whealbiCode
 
 #### META information about the panel
@@ -37,3 +38,11 @@ wget https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar
 
 # beagle
 wget https://faculty.washington.edu/browning/beagle/beagle.27Jan18.7e1.jar
+
+#### Set up python
+```
+git clone git@github.com:juancrescente/wh_pipeline.git
+virtualenv --python=python3 venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
