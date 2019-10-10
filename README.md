@@ -1,30 +1,21 @@
 ### General information
 
 #### Tracing the ancestry of modern bread wheats
-```
 https://www.nature.com/articles/s41588-019-0393-z
-```
 
 #### JBrowse
-```
 https://urgi.versailles.inra.fr/jbrowseiwgsc/gmod_jbrowse/?data=myData%2FIWGSC_RefSeq_v1.0
-```
 
 #### Reference scripts
-```
 https://github.com/dandaman/whealbiCode
-```
 
 #### META information about the panel
-```
 https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Annotations/v1.0/iwgsc_refseqv1.0_Whealbi_GWAS.zip
-```
 
 #### Genotyping data
-```
 https://www.ncbi.nlm.nih.gov/bioproject/PRJNA524104/
-```
 
+Looks like it does not need adapter or quality trimming
 
 ### Software set up
 
