@@ -58,3 +58,25 @@ virtualenv --python=python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Overview
+
+#### Data preprosessing
+
+- Convert file `data/META/SraExperimentPackage.xml` to csv using http://www.convertcsv.com/xml-to-csv.htm
+- Filter results using only accessions in `data/META/arg_accessions` (pipeline/1_get_data/1_filter_accessions.ipynb)
+
+
+### Bibliography
+
+- Multi-environment Genomic Prediction of Plant Traits Using Deep Learners With Dense Architecture
+
+- Prediction of maize phenotype based on whole-genome single nucleotide polymorphisms using deep belief networks
+
+- Crop Yield Prediction Using Deep Neural Networks
+        https://www.frontiersin.org/articles/10.3389/fpls.2019.00621/full
+
+- A deep convolutional neural network approach for predicting phenotypes from genotypes
+
+- Using classification algorithms for predicting durum wheat yield in the province of Buenos Aires
+        https://www.sciencedirect.com/science/article/pii/S0168169913001257
