@@ -1,0 +1,10 @@
+beagle.27Jan18.7e1.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jan18.7e1.jar" for a summary of command line arguments.
+Start time: 04:34 PM ART on 11 Oct 2019
+
+Command line: java -Xmx16092m -jar beagle.jar
+  gt=data/META/res.ann.head.vcf
+  out=out.gt
+
+No genetic map is specified: using 1 cM = 1 Mb
