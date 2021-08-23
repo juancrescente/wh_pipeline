@@ -1,4 +1,4 @@
-jupyterlab==1.1.4
+jupyterlab==1.2.21
 pandas==0.25.1
 biopython==1.74
 seaborn==0.9.0
